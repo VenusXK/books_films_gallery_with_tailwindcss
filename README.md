@@ -51,3 +51,5 @@ module.exports = {
 ```cmd
 npx tailwindcss -i input_media.css -o output_media.css
 ```
+
+> 修改 `input_media.css` 文件下的属性，即可改变样式
