@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body{
+        @apply font-bold overflow-x-hidden
+    }
+    /* #layout-content-real::-webkit-scrollbar{ width: 0 !important } */
+    /* start of screen-titlesubtitle */
+    #screen-titlesubtitle{
+        @apply w-screen h-60 md:h-72 sm:h-72
+    }
+        /* start of title */
+        /* #title-svg{
+            @apply absolute left-[32%] top-24 w-10 h-10 hover:cursor-pointer
+        } */
+        #title-svg2{
+            @apply w-10 h-10 sm:w-6 sm:h-6 text-black;
+            @apply absolute top-[16px] left-[245px] sm:top-[16px] sm:left-[188px];
+        }
+        #title-content{
+            @apply w-auto h-auto;
+            @apply absolute top-20 left-[20%]  sm:left-[15%] md:left-[15%];
+            @apply text-5xl sm:text-4xl;
+            @apply leading-tight;
+        }
+        /* end of title */
+
+        /* start of subtitle1 */
+        #subtitle1-div, #subtitle2-div{
+            @apply absolute top-24 right-[13%] sm:top-48 sm:left-[15%] md:top-56 md:left-[15%];
+            @apply text-base sm:text-xs;
+            @apply w-64;
+        }
+        #subtitle1-svg-div, #subtitle2-svg-div{
+            @apply w-10 h-10 sm:w-8 sm:h-8;
+            @apply bg-white;
+            @apply float-left;
+            @apply overflow-hidden;
+            @apply mr-2;
+        }
+        #subtitle1-svg, #subtitle2-svg{
+            @apply w-10 h-10 sm:w-8 sm:h-8;
+        }
+        #subtitle1-inf{
+            @apply text-sm sm:text-xs ;
+            @apply text-purple-400 hover:text-purple-500;
+            @apply hover:cursor-pointer;
+        }
+        /* end of subtitle1 */
+
+        /* start of subtitle2 */
+        #subtitle2-div{
+            @apply absolute top-40 right-[13%] sm:top-60 sm:left-[15%] md:top-56 md:left-[46%];
+        }
+        #subtitle2-inf{
+            @apply text-sm sm:text-xs text-purple-400 hover:text-purple-500 hover:cursor-pointer;
+        }
+        /* end of subtitle2 */
+        
+    /* end of screen-titlesubtitle */
+
+    .media-leftbtn, .media-rightbtn{
+        @apply z-10;
+        @apply text-gray-500;
+        @apply hover:text-black  hover:cursor-pointer absolute mt-28;
+        @apply rounded-md p-1 animate-pulse bg-[#ffffffaa];
+        @apply sm:hidden;
+    }
+    .media-leftbtn{
+        @apply ml-[3%] 
+    }
+    .media-rightbtn{
+        @apply right-[3%]
+        
+    }
+
+    .media-wide-container-marginleft{
+        @apply w-auto ml-[20%] sm:ml-[15%] md:ml-[15%]
+    }
+
+    /* start of media */
+    /* .screen-media::-webkit-scrollbar {
+        display:none
+    } */
+    .screen-media{
+        @apply   w-screen text-base h-[250] mt-5 overflow-x-auto overflow-y-hidden ;
+    }
+    .media-wide-container{
+        @apply h-[100%] pt-3;
+    }
+        /* start of each media */
+        .media-div {
+            @apply w-28 h-full  mr-8 float-left text-center;
+        }
+        .media-folder-up2{
+            @apply  h-36  relative mt-[-7] z-[-2] w-20 ml-4 bg-blue-400 rounded-xl ring-0;
+        }
+        .media-folder-up1{
+            @apply h-36  relative mt-[-140] z-[-1] w-24 ml-2 bg-blue-600 rounded-xl ring-0;
+        }
+        .media-folder-main{
+            @apply w-28 h-36 mt-[-138]  bg-gradient-to-br from-[#1c7df3] to-[#1abcfa] rounded-lg overflow-hidden;
+        }
+        .media-folder-main svg{
+            @apply w-8 h-8 text-white mt-[50%] ml-[35%];
+        }
+        .media-pic{
+            @apply hover:scale-[101%] hover:shadow-xl;
+            @apply transition hover:ease-in-out w-28 h-36 rounded-lg  overflow-hidden hover:ring-purple-400 hover:ring-2 shadow-md hover:cursor-pointer
+        }
+        .media-pic-text{
+            @apply text-white text-xs bg-black mt-2 z-10 text-left w-fit;
+        }
+        .media-div img{
+            @apply mt-[-24] z-[-1] relative;
+        }
+        .media-text, .media-folder-text{
+            @apply transition duration-75 hover:ease-in text-gray-500 hover:text-gray-600 text-sm p-1  hover:cursor-pointer
+        }
+        .media-folder-text{
+            @apply text-gray-400 
+        }
+        .media-div-notshown {
+            @apply w-36 h-36  mr-8 float-left rounded-lg inline-block opacity-25
+        }
+        .media-pic-notshown{
+            @apply w-36 h-24 rounded-lg overflow-hidden ring-purple-400 border-2 border-gray-100 
+        }
+        .media-text-notshown{
+            @apply text-gray-500 text-sm p-1
+        }
+        /* end of each media */
+    /* end of media */
+
+    .media-touch::-webkit-scrollbar{
+        width: 0 !important 
+    }
+    .media-touch{
+        @apply h-[200%] overflow-x-auto overflow-y-auto;
+    }
+
+    /* start of screen-deatil */
+    .screen-detail, .screen-detail-special{
+        @apply w-screen h-[340] text-base overflow-hidden 
+    }
+    .screen-detail-special{
+        /* @apply bg-gradient-to-r from-[#f5af19] to-[#f12711]  mt-10 */
+        @apply sm:bg-gradient-to-r bg-gradient-to-br from-[#b3bde2] via-[#0575E6] to-[#021B79]    mt-10
+
+    }
+
+
+    .detail-card-sm-poster-href svg{
+        @apply w-6 h-6
+    }
+    #screen-icmp{
+        @apply m-auto w-screen h-20 mt-6 text-center text-gray-400 text-opacity-40 font-semibold
+    }
+    #screen-icmp span{
+        @apply hover:text-gray-400  text-opacity-10
+    }
+}
