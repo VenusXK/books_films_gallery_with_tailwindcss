@@ -29,7 +29,6 @@ npx tailwindcss init
 ```
 ### 2. 在 `tailwind.config.js` 下设置使用到 `tailwindcss` 的文件的目录 `Configure your template paths`
 ```json
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
