@@ -53,3 +53,14 @@ npx tailwindcss -i input_media.css -o output_media.css
 ```
 
 > 修改 `input_media.css` 文件下的属性，即可改变样式
+
+## 基于 `Javascript` 的文件夹的实现 `Implementation of Javascript-based folders`
+见 `media.html` 文件末尾的 `script` 标签
+
+See the 'script' tab at the end of the 'media.html' file
+
+
+## 基于 `Javascript` 的按键的实现 `Implementation of Javascript-based folders`
+见 `film_media_btn.js` 文件
+
+See 'film_media_btn.js' document
