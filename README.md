@@ -5,20 +5,16 @@
 
 A pure front-end project based on tailwindcss which records the books📕 and movies🎞️ I've seen
 
+项目链接：http://www.venusxk.com/media.html
+
+Project link: http://www.venusxk.com/media.html
+
 ## 界面效果 `Interface Effects`
-### 索引界面 `Indexing Interface`
-分为不同的主题内容，对应文件夹内容
+
 <br>
-<div style="width: 30%;margin:auto">
-    <img src="./readme_pic/index.html.jpg" style="display: block; width: 100%; height: 20%" />
-    <div style="text-align:center;margin:auto">
-        图1 索引界面
-    </div>
-</div>
-<br>
-<div style="width: 50%;margin:auto">
-    <img src="./readme_pic/index.html-file.jpg" style="display: block; width: 100%; height: 20%" />
-    <div style="text-align:center;margin:auto">
-        图2 索引界面对应文件
-    </div>
+<div align=center>
+    <img decoding="async" src="./readme_pic/gallery.jpg" width="80%" >
+
+    图1 界面效果
+    Figure 1 Interface effects
 </div>
