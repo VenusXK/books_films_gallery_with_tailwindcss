@@ -14,6 +14,7 @@ Project link: http://www.venusxk.com/media.html
 <br>
 <div align=center>
     <img decoding="async" src="./readme_pic/gallery.jpg" width="80%" >
+<br>    
 图1 界面效果
 
 Figure 1 Interface effects
